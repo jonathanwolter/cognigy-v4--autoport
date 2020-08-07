@@ -1,0 +1,32 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "An (almost) empty Cognigy.AI 4.0.0 Extension ",
+  "main": "build/module.js",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "deploy": "node ./scripts/deploy.js",
+    "lint": "tslint -c tslint.json src/**/*.ts"
+  },
+  "keywords": [
+    "Cognigy.AI",
+    "4.0.0",
+    "extensions",
+    "4.0.0"
+  ],
+  "author": "Cognigy GmbH",
+  "license": "ISC",
+  "dependencies": {
+    "@cognigy/extension-tools": "^0.9.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "@types/node-fetch": "^2.5.7",
+    "axios": "^0.19.2",
+    "tslint": "^5.16.0",
+    "tar": "^6.0.2",
+    "typescript": "^3.8.3"
+  },
+  "repository": {}
+}
